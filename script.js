@@ -1,9 +1,8 @@
 document.getElementById("demo").innerHTML ="Itna dhyaan se kya padh raha hai bsdk.. jaa naa maa chuda";
       alert("Jaisa bola jaiga.. waisa hi krna");
-      alert("OK click kar");
       let name = prompt("Naam likh madarchod");
       let lst = name.split();
-      if (name.toLowerCase() != "sayan") {
+      if (name.toLowerCase().trim() != "sayan") {
         alert(name + " ab maa chudale");
       } 
       else {
